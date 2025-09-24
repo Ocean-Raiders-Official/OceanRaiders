@@ -45,26 +45,53 @@ header nav a.active {
 
 /* Hero */
 .hero {
-  height: 100vh;
   background-size: cover;
   background-position: center;
+  height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #fff;
-  padding: 0 20px;
+  align-items: center;   /* vertically center */
+  justify-content: flex-start; /* move content to the left */
+  padding-left: 60px;    /* space from left edge */
+  color: white;
+  text-align: right;      /* left-align text */
+  justify-content: flex-end;
+  padding-right: 60px;
+  text-align: right;
+  padding-top: 299px;
+
+}
+
+.hero-content {
+  max-width: 500px;      /* keeps text neat, not too wide */
 }
 
 .hero-content h1 {
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 
 .hero-content p {
   font-size: 1.2rem;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
+
+.hero-content .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #0077b6;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.hero-content .btn:hover {
+  background: #0096c7;
+}
+
 
 .btn {
   padding: 12px 30px;
