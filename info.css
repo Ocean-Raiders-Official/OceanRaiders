@@ -44,7 +44,7 @@ header nav a.active {
 }
 
 /* Hero */
-.hero {
+.info-hero {
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -55,43 +55,26 @@ header nav a.active {
   color: white;
   text-align: left;      /* left-align text */
   justify-content: flex-end;
-  padding-right: 700px;
-  text-align: left;
+  padding-right: 725px;
   padding-top: 299px;
 
 }
 
-.hero-content {
+.info-hero-content {
   max-width: 500px;      /* keeps text neat, not too wide */
 }
 
-.hero-content h1 {
+.info-hero-content h1 {
   font-size: 3rem;
   margin-bottom: 15px;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 
-.hero-content p {
+.info-hero-content p {
   font-size: 1.2rem;
   margin-bottom: 20px;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
-
-.hero-content .btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background: #0077b6;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 600;
-  transition: background 0.3s ease;
-}
-
-.hero-content .btn:hover {
-  background: #0096c7;
-}
-
 
 .btn {
   padding: 12px 30px;
